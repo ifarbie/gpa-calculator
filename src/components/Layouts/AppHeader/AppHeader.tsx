@@ -1,6 +1,6 @@
-import student from "../assets/student.svg";
+import student from "../../../assets/student.svg";
 
-const Header = () => {
+const AppHeader = () => {
   return (
     <div className="mt-8 mx-6 md:px-11 md:max-w-[768px] md:flex gap-5">
       <div>
@@ -14,4 +14,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppHeader;

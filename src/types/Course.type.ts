@@ -1,8 +1,8 @@
 type Course = {
   id: number;
   credits: number;
-  gradePoints: number;
-  totalGradePoints: number;
+  gradePoints: number | null;
+  totalGradePoints: number | null;
 };
 
 export default Course;
