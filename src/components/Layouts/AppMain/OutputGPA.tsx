@@ -1,7 +1,6 @@
 const OutputGPA = ({ cumulativeGPA }: { cumulativeGPA: number }) => {
   const percentage = Math.round(25 * (cumulativeGPA - 2.0) + 50);
   const percentageWidth = `${percentage}%`;
-  console.log(percentageWidth)
 
   return (
     <div className="h-40 w-40 shadow bg-white border absolute -right-3 -bottom-9 rounded-full p-5 flex justify-center items-center flex-col">
